@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingTop="50dp"
+    android:orientation="vertical">
+
+
+
+
+    <Button
+        android:id="@+id/Button_5"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="녹음시작"
+        />
+
+    <Button
+        android:id="@+id/Button_6"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="녹음중지"
+        />
+
+    <Button
+        android:id="@+id/Button_1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="녹음파일재생"
+        />
+
+    <Button
+        android:id="@+id/Button_2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="일시정지"
+        />
+
+    <Button
+        android:id="@+id/Button_3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="재시작"
+        />
+
+    <Button
+        android:id="@+id/Button_4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="종료" />
+
+    <Button
+        android:id="@+id/Button_8"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="서버전송" />
+
+
+</LinearLayout>
